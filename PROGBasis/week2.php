@@ -17,27 +17,27 @@ $omgekeerd = array_reverse($weekdagen);
 foreach ($weekdagen as $key => $dagen) {
         switch (strtolower($key)){
                 case 'ma';
-                        echo $key, '<br>';
+                        echo ucfirst($dagen), '<br>';
                         break;
                 case 'di';
-                        echo $key, '<br>';
+                        echo ucfirst($dagen), '<br>';
                         break;
                 case 'wo';
-                        echo $key, '<br>';
+                        echo ucfirst($dagen), '<br>';
                         break;
                 case 'do';
-                        echo $key, '<br>';
+                        echo ucfirst($dagen), '<br>';
                         break;
                 case 'vr';
-                        echo $key, '<br>';
+                        echo ucfirst($dagen), '<br>';
                         break;
                 case 'za';
-                        $key = strtoupper($key);
-                        echo $key, '<br>';
+                        $dagen = strtoupper($dagen);
+                        echo $dagen, '<br>';
                         break;
                 case 'zo';
-                        $key = strtoupper($key);
-                        echo $key, '<br>';
+                        $dagen = strtoupper($dagen);
+                        echo $dagen, '<br>';
                         break;
         }
 }
@@ -45,27 +45,27 @@ foreach ($weekdagen as $key => $dagen) {
 foreach ($omgekeerd as $key => $anders) {
         switch (strtolower($key)){
                 case 'ma';
-                        echo $key, '<br>';
+                        echo ucfirst($anders), '<br>';
                         break;
                 case 'di';
-                        echo $key, '<br>';
+                        echo ucfirst($anders), '<br>';
                         break;
                 case 'wo';
-                        echo $key, '<br>';
+                        echo ucfirst($anders), '<br>';
                         break;
                 case 'do';
-                        echo $key, '<br>';
+                        echo ucfirst($anders), '<br>';
                         break;
                 case 'vr';
-                        echo $key, '<br>';
+                        echo ucfirst($anders), '<br>';
                         break;
                 case 'za';
-                        $key = strtoupper($key);
-                        echo $key, '<br>';
+                        $anders = strtoupper($anders);
+                        echo $anders, '<br>';
                         break;
                 case 'zo';
-                        $key = strtoupper($key);
-                        echo $key, '<br>';
+                        $anders = strtoupper($anders);
+                        echo $anders, '<br>';
                         break;
         }
 }
